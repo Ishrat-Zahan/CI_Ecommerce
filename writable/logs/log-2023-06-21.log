@@ -1,0 +1,338 @@
+CRITICAL - 2023-06-21 03:52:49 --> Invalid file: "admin/subcategory/all.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/subcategory/all.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/subcategory/all', [], true)
+ 3 APPPATH\Controllers\ProductController.php(48): view('admin/subcategory/all', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:01:58 --> Undefined variable $product
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:06:26 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:06:27 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:06:27 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:06:28 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:07:13 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:08:08 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:13:07 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(49): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 04:35:46 --> Undefined variable $data
+in APPPATH\Views\layouts\content.php on line 187.
+ 1 APPPATH\Views\layouts\content.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 187)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(49): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 07:23:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\single.php on line 13.
+ 1 APPPATH\Views\single.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\single.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\single.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('single', [], true)
+ 5 APPPATH\Controllers\ProductController.php(58): view('single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->details('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 07:37:13 --> Undefined variable $cats
+in APPPATH\Views\layouts\content.php on line 37.
+ 1 APPPATH\Views\layouts\content.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 09:03:03 --> Undefined variable $cats
+in APPPATH\Views\layouts\content.php on line 37.
+ 1 APPPATH\Views\layouts\content.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cats', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('layouts/content')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:09:19 --> Undefined array key "imgname"
+in APPPATH\Views\layouts\content.php on line 168.
+ 1 APPPATH\Views\layouts\content.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imgname"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(50): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:10:03 --> Undefined array key "imgname"
+in APPPATH\Views\layouts\content.php on line 168.
+ 1 APPPATH\Views\layouts\content.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imgname"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(50): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 10:19:16 --> mysqli_sql_exception: Unknown column 'categorie.images' in 'field list' in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\app\Controllers\ProductController.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\ProductController->index()
+#6 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-21 10:19:16 --> Unknown column 'categorie.images' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categorie`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categorie`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categorie`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categorie`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`', [], false)
+ 5 APPPATH\Controllers\ProductController.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-21 10:19:29 --> mysqli_sql_exception: Unknown column 'categories.images' in 'field list' in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\app\Controllers\ProductController.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\ProductController->index()
+#6 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-21 10:19:29 --> Unknown column 'categories.images' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categories`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categories`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categories`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `categories`.`name` as `catname`, `subcategories`.`name` as `subcatname`, `images`.`name` as `imgname`, `categories`.`images` as `catimg`
+FROM `products`
+INNER JOIN `categories` ON `categories`.`id` = `products`.`category_id`
+INNER JOIN `subcategories` ON `subcategories`.`id` = `products`.`subcategory_id`
+INNER JOIN `images` ON `images`.`product_id` = `products`.`id`', [], false)
+ 5 APPPATH\Controllers\ProductController.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:19:50 --> Undefined array key "catimg"
+in APPPATH\Views\layouts\content.php on line 44.
+ 1 APPPATH\Views\layouts\content.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "catimg"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(50): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:21:11 --> Undefined array key "image"
+in APPPATH\Views\layouts\content.php on line 44.
+ 1 APPPATH\Views\layouts\content.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(50): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:24:17 --> Undefined array key "image"
+in APPPATH\Views\layouts\content.php on line 44.
+ 1 APPPATH\Views\layouts\content.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(50): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:25:52 --> Undefined array key "image"
+in APPPATH\Views\layouts\content.php on line 44.
+ 1 APPPATH\Views\layouts\content.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\layouts\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layouts/content', [], true)
+ 5 APPPATH\Controllers\ProductController.php(50): view('layouts/content', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:44:51 --> Cannot use object of type stdClass as array
+in APPPATH\Views\single.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('single', [], true)
+ 4 APPPATH\Controllers\ProductController.php(68): view('single', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->details('17')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:45:20 --> Cannot use object of type stdClass as array
+in APPPATH\Views\single.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('single', [], true)
+ 4 APPPATH\Controllers\ProductController.php(68): view('single', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->details('17')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 10:49:05 --> Undefined variable $row
+in APPPATH\Views\single.php on line 8.
+ 1 APPPATH\Views\single.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\single.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\single.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('single', [], true)
+ 5 APPPATH\Controllers\ProductController.php(77): view('single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->details('17')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 12:56:25 --> Undefined variable $product
+in APPPATH\Views\product\subcat.php on line 3.
+ 1 APPPATH\Views\product\subcat.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/subcat', [], true)
+ 5 APPPATH\Controllers\SubcategoryController.php(40): view('product/subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SubcategoryController->details('details', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-21 12:56:33 --> Undefined variable $product
+in APPPATH\Views\product\subcat.php on line 3.
+ 1 APPPATH\Views\product\subcat.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/subcat', [], true)
+ 5 APPPATH\Controllers\SubcategoryController.php(40): view('product/subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SubcategoryController->details('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

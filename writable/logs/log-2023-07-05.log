@@ -1,0 +1,431 @@
+INFO - 2023-07-05 07:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:20:53 --> CSRF token verified.
+INFO - 2023-07-05 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 07:21:17 --> CSRF token verified.
+INFO - 2023-07-05 15:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:28:46 --> CSRF token verified.
+INFO - 2023-07-05 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:29:01 --> CSRF token verified.
+CRITICAL - 2023-07-05 15:29:02 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\CartController.php on line 101.
+ 1 APPPATH\Controllers\CartController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Controllers\\CartController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 15:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:31:50 --> CSRF token verified.
+CRITICAL - 2023-07-05 15:31:50 --> Undefined array key "id"
+in APPPATH\Controllers\CartController.php on line 102.
+ 1 APPPATH\Controllers\CartController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Controllers\\CartController.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 15:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:39:40 --> CSRF token verified.
+ERROR - 2023-07-05 15:39:40 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(112): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 15:39:40 --> Table 'r53_ci.orderitems' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (:order_id:, :product_id:, :price:, :quantity:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CartController.php(112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:43:54 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('checkout', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 15:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:54:58 --> CSRF token verified.
+ERROR - 2023-07-05 15:54:58 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(112): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 15:54:58 --> Table 'r53_ci.orderitems' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (9, \'4\', \'70000.00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (9, \'4\', \'70000.00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (9, \'4\', \'70000.00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (:order_id:, :product_id:, :price:, :quantity:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CartController.php(112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 15:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 15:57:01 --> CSRF token verified.
+ERROR - 2023-07-05 15:57:01 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(112): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 15:57:01 --> Table 'r53_ci.orderitems' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (10, \'3\', \'95000.00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (10, \'3\', \'95000.00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (10, \'3\', \'95000.00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (:order_id:, :product_id:, :price:, :quantity:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CartController.php(112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 16:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 16:02:49 --> CSRF token verified.
+ERROR - 2023-07-05 16:02:49 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(111): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 16:02:49 --> Table 'r53_ci.orderitems' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (11, \'3\', \'95000.00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (11, \'3\', \'95000.00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (11, \'3\', \'95000.00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (:order_id:, :product_id:, :price:, :quantity:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CartController.php(111): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 17:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:18:27 --> CSRF token verified.
+INFO - 2023-07-05 17:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:18:41 --> CSRF token verified.
+ERROR - 2023-07-05 17:18:41 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(111): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:18:41 --> Table 'r53_ci.orderitems' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (12, \'3\', \'95000.00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (12, \'3\', \'95000.00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (12, \'3\', \'95000.00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (:order_id:, :product_id:, :price:, :quantity:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CartController.php(111): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 17:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:19:48 --> CSRF token verified.
+INFO - 2023-07-05 17:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:20:56 --> CSRF token verified.
+INFO - 2023-07-05 17:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:22:29 --> CSRF token verified.
+CRITICAL - 2023-07-05 17:22:29 --> Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 577.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'E:\\xampp\\htdocs\\codeignater\\project\\system\\Database\\MySQLi\\Connection.php', 577)
+ 2 APPPATH\Controllers\CartController.php(96): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 17:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:24:09 --> CSRF token verified.
+INFO - 2023-07-05 17:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:25:55 --> CSRF token verified.
+INFO - 2023-07-05 17:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:27:34 --> CSRF token verified.
+INFO - 2023-07-05 17:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:28:48 --> CSRF token verified.
+ERROR - 2023-07-05 17:28:48 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(111): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-05 17:28:48 --> Table 'r53_ci.orderitems' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (16, \'3\', \'95000.00\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (16, \'3\', \'95000.00\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (16, \'3\', \'95000.00\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orderitems` (`order_id`, `product_id`, `price`, `quantity`) VALUES (:order_id:, :product_id:, :price:, :quantity:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CartController.php(111): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-05 17:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:33:52 --> CSRF token verified.
+ERROR - 2023-07-05 17:33:52 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-07-05 17:33:52 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-07-05 17:33:52 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-07-05 17:33:52 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-07-05 17:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:37:20 --> CSRF token verified.
+ERROR - 2023-07-05 17:37:20 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-07-05 17:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:39:23 --> CSRF token verified.
+ERROR - 2023-07-05 17:39:23 --> mysqli_sql_exception: Table 'r53_ci.orderitems' doesn't exist in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-07-05 17:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:40:44 --> CSRF token verified.
+ERROR - 2023-07-05 17:40:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`r53_ci`.`order_items`, CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)) in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(100): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-07-05 17:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:44:28 --> CSRF token verified.
+ERROR - 2023-07-05 17:44:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`r53_ci`.`order_items`, CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)) in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(101): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-07-05 17:44:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`r53_ci`.`order_items`, CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)) in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(101): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-07-05 17:44:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`r53_ci`.`order_items`, CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)) in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(101): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-07-05 17:44:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`r53_ci`.`order_items`, CONSTRAINT `order_items_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)) in E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\codeignater\project\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\codeignater\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\codeignater\project\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\codeignater\project\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\codeignater\project\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\codeignater\project\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\codeignater\project\app\Controllers\CartController.php(101): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(934): App\Controllers\CartController->checkout()
+#9 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#10 E:\xampp\htdocs\codeignater\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeignater\project\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2023-07-05 17:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 17:49:23 --> CSRF token verified.

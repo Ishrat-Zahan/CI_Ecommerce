@@ -1,0 +1,95 @@
+INFO - 2023-06-18 09:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 09:06:42 --> CSRF token verified.
+INFO - 2023-06-18 09:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 09:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 09:06:46 --> CSRF token verified.
+INFO - 2023-06-18 09:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 09:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 09:07:27 --> CSRF token verified.
+INFO - 2023-06-18 09:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 09:15:23 --> mysqli_sql_exception: Can't create table `r53_ci`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") in E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 E:\xampp\htdocs\R53\codeigniter\project\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 E:\xampp\htdocs\R53\codeigniter\project\app\Database\Migrations\2023-06-18-091337_Products.php(87): CodeIgniter\Database\Forge->createTable('products')
+#5 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(877): App\Database\Migrations\Products->up()
+#6 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\xampp\htdocs\R53\codeigniter\project\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\xampp\htdocs\R53\codeigniter\project\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-18 09:20:55 --> mysqli_sql_exception: Can't create table `r53_ci`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") in E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 E:\xampp\htdocs\R53\codeigniter\project\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 E:\xampp\htdocs\R53\codeigniter\project\app\Database\Migrations\2023-06-18-091337_Products.php(87): CodeIgniter\Database\Forge->createTable('products')
+#5 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(877): App\Database\Migrations\Products->up()
+#6 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\xampp\htdocs\R53\codeigniter\project\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\xampp\htdocs\R53\codeigniter\project\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-18 09:22:20 --> mysqli_sql_exception: Can't create table `r53_ci`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") in E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 E:\xampp\htdocs\R53\codeigniter\project\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 E:\xampp\htdocs\R53\codeigniter\project\app\Database\Migrations\2023-06-18-091337_Products.php(87): CodeIgniter\Database\Forge->createTable('products')
+#5 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(877): App\Database\Migrations\Products->up()
+#6 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\xampp\htdocs\R53\codeigniter\project\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\xampp\htdocs\R53\codeigniter\project\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-18 09:24:08 --> mysqli_sql_exception: Can't create table `r53_ci`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") in E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 E:\xampp\htdocs\R53\codeigniter\project\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 E:\xampp\htdocs\R53\codeigniter\project\app\Database\Migrations\2023-06-18-091337_Products.php(80): CodeIgniter\Database\Forge->createTable('products')
+#5 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(877): App\Database\Migrations\Products->up()
+#6 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\xampp\htdocs\R53\codeigniter\project\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\xampp\htdocs\R53\codeigniter\project\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-18 09:32:22 --> mysqli_sql_exception: Unknown table 'r53_ci.subcategories' in E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `sub...', 0)
+#1 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `sub...')
+#2 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `sub...')
+#3 E:\xampp\htdocs\R53\codeigniter\project\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `sub...')
+#4 E:\xampp\htdocs\R53\codeigniter\project\app\Database\Migrations\2023-06-18-092557_Subcategories.php(42): CodeIgniter\Database\Forge->dropTable('subcategories')
+#5 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(877): App\Database\Migrations\Subcategories->down()
+#6 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 E:\xampp\htdocs\R53\codeigniter\project\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(2)
+#8 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 E:\xampp\htdocs\R53\codeigniter\project\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-18 09:33:12 --> mysqli_sql_exception: Unknown table 'r53_ci.subcategories' in E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `sub...', 0)
+#1 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `sub...')
+#2 E:\xampp\htdocs\R53\codeigniter\project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `sub...')
+#3 E:\xampp\htdocs\R53\codeigniter\project\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `sub...')
+#4 E:\xampp\htdocs\R53\codeigniter\project\app\Database\Migrations\2023-06-18-092557_Subcategories.php(42): CodeIgniter\Database\Forge->dropTable('subcategories')
+#5 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(877): App\Database\Migrations\Subcategories->down()
+#6 E:\xampp\htdocs\R53\codeigniter\project\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 E:\xampp\htdocs\R53\codeigniter\project\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(2)
+#8 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 E:\xampp\htdocs\R53\codeigniter\project\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 E:\xampp\htdocs\R53\codeigniter\project\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-06-18 10:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 10:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

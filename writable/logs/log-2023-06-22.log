@@ -1,0 +1,33 @@
+CRITICAL - 2023-06-22 11:58:16 --> Undefined array key "image"
+in APPPATH\Views\product\subcat.php on line 28.
+ 1 APPPATH\Views\product\subcat.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/subcat', [], true)
+ 5 APPPATH\Controllers\SubcategoryController.php(45): view('product/subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SubcategoryController->details('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:58:51 --> Undefined array key "image_name"
+in APPPATH\Views\product\subcat.php on line 28.
+ 1 APPPATH\Views\product\subcat.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_name"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/subcat', [], true)
+ 5 APPPATH\Controllers\SubcategoryController.php(45): view('product/subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SubcategoryController->details('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:06:10 --> Undefined array key "imgname"
+in APPPATH\Views\product\subcat.php on line 24.
+ 1 APPPATH\Views\product\subcat.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imgname"', 'E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\codeignater\\project\\app\\Views\\product\\subcat.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/subcat', [], true)
+ 5 APPPATH\Controllers\SubcategoryController.php(45): view('product/subcat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SubcategoryController->details('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubcategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
